@@ -1,13 +1,23 @@
 var React = require("react")
 
-var NotFoundPage = React.createClass({
+var HomePage = React.createClass({
 	render: function(){
 		return(
-			<div>
-				<h1>HomePage</h1>
-			</div>
-		)
+			<table className="table">
+				<thead>
+				<tr>
+					<th>#</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Username</th>
+				</tr>
+				</thead>
+			<tbody id= "user-data-container">
+			
+			</tbody>
+		</table>
+		);
 	}
 });
 
-module.exports = NotFoundPage;
+module.exports = HomePage;
