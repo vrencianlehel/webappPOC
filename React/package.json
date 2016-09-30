@@ -1,13 +1,13 @@
 {
-  "name": "standelone-webapp",
+  "name": "frontend-webapp",
   "version": "0.0.1",
-  "description": "Just a framework proof",
+  "description": "Just a frontend proof of concept webapp implemented in React",
+  "author": "Boieriu Alexandru",
   "dependencies": {
-    "express": "^4.14.0",
-    "jquery": "^3.1.0",
     "bootstrap": "^3.3.5",
     "browserify": "^11.0.1",
-    "gulp": "^3.8.0",
+    "flux": "^2.0.3",
+    "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^2.2.0",
     "gulp-open": "^1.0.0",
@@ -15,6 +15,7 @@
     "react": "^0.13.3",
     "react-router": "^0.13.3",
     "reactify": "^1.1.1",
+    "jquery": "^3.1.1",
     "vinyl-source-stream": "^1.1.0"
   }
 }

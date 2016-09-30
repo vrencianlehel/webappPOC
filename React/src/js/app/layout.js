@@ -2,11 +2,11 @@ var React = require('react');
 var RouteHandler = require('react-router').RouteHandler;
 
 var AppBaseView = React.createClass({
-	render: function(){
+	render: function() {
 		return (
-		<div class="base-container">
-			<RouteHandler/>
-		</div>
+			<div className="base-container">
+				<RouteHandler />
+			</div>
 		);
 	}
 });
